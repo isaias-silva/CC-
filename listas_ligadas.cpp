@@ -39,10 +39,10 @@ int main()//função inicial
     proximo_ponto->prox = NULL;
     proximo_ponto = ini_ponto;
 
-    while (proximo_ponto != NULL)
+    while (proximo_ponto != NULL)//enquanto proximo ponto for diferente de NULL
     {
-        printf("\n x: %d \n y: %d \n", proximo_ponto->x, proximo_ponto->y);
-        proximo_ponto=proximo_ponto->prox;
+        printf("\n x: %d \n y: %d \n", proximo_ponto->x, proximo_ponto->y); //imprimi o ponto
+        proximo_ponto=proximo_ponto->prox;//vai para o proximo ponto
     }
     return 0;
 }
