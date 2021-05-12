@@ -16,7 +16,7 @@ No *criar_no() //função de criar um no
 {
     No *novo = (No *)malloc(sizeof(No));
     return novo;
-}
+} 
 
 No *inserir_no_inicio(No *lista, int valor) //valor sera inserido no começo
 {
@@ -24,7 +24,7 @@ No *inserir_no_inicio(No *lista, int valor) //valor sera inserido no começo
     novo_no->num = valor;
     if (lista == NULL) //se a lista estiver vazia
     {
-        lista = novo_no;
+        
         novo_no->proximo = NULL;
     }
     else //se nao vai para o proximo
@@ -51,7 +51,7 @@ int main()
     setlocale(LC_ALL, "Portuguese");
     No *lista = NULL;
     int n, i;
-    for (i = 0; i < 10; i++)
+    for (i = 0; i < 3; i++)
     {   
         printf("digite um valor: \t");
         scanf("%d", &n);
