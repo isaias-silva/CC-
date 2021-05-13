@@ -56,7 +56,7 @@ int main() //função inicial
 
     while (proxima != NULL)
     {
-        printf("...............ALUNO(a)..................");
+        printf("\n...............ALUNO(a)..................");
         printf("\n Nome:..............%s", proxima->nome);
         printf(" idade:..............%d\n", proxima->idade);
         printf(" nota:.............. %.2f\n", proxima->nota);
