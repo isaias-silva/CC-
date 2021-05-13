@@ -56,10 +56,12 @@ int main() //função inicial
 
     while (proxima != NULL)
     {
-        printf("\n Nome: %s", proxima->nome);
-        printf(" idade: %d\n", proxima->idade);
-        printf(" nota: %.2f\n", proxima->nota);
+        printf("...............ALUNO(a)..................");
+        printf("\n Nome:..............%s", proxima->nome);
+        printf(" idade:..............%d\n", proxima->idade);
+        printf(" nota:.............. %.2f\n", proxima->nota);
         proxima = proxima->ponteiro_proximo;
+        printf("......................................");
     }
     printf("\n <<<<<<< Media dos alunos : %.1f >>>>>>>>>>\n", s / q);
 
